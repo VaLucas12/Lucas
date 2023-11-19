@@ -1,0 +1,80 @@
+.Largeline {
+    border: double 4px black;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4%
+}
+
+.LightLine {
+    border: solid 1px black;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4%
+}
+
+h1,h2,h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+h3{
+    margin-bottom: -3%;
+    margin-top: -1.7%
+}
+h2{
+    margin-top: -3%;
+    margin-bottom: -3%;
+}
+#intro p {
+    text-align: justify;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px 10%;
+    padding: 15px 15px -10px;
+}
+#NuageDeMots img{
+    max-height: 300px;
+    width: auto;
+    border: 2px solid;
+    border-radius: 2%;
+}
+#NuageDeMots, #NuageDeMots p{
+    text-align: center;
+    font-size: 14px;
+}
+.Repertoire,#Conclusion {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 10%;
+    width: auto;
+}
+.Image{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 300px;
+    width: auto;
+    border: 2px solid;
+    margin-left: 10%;
+    border-radius: 2%;
+}
+.Text{
+    flex: 2;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+}
+.Repertoire:last-of-type p{
+    margin-bottom: 0;
+}
+{
+    background-color: red;
+}
